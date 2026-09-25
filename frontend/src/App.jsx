@@ -13,7 +13,7 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mens-wear-ecommerce">
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
